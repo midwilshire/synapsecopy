@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-custstgacct--swsdata-sawsp",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/6fc2a3ad-1efc-4f3c-8ca1-0a874f612ef2/resourceGroups/RG-Data/providers/Microsoft.Storage/storageAccounts/sawsp",
+		"groupId": "dfs",
+		"fqdns": [
+			"sawsp.dfs.core.windows.net"
+		]
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"name": "synapse-ws-sql--swsdata",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/6fc2a3ad-1efc-4f3c-8ca1-0a874f612ef2/resourceGroups/RG-Data/providers/Microsoft.Synapse/workspaces/swsdata",
+		"groupId": "sql",
+		"fqdns": [
+			"swsdata.1a395714-9e5a-46d6-8e2a-7eb49d0100ca.sql.azuresynapse.net"
+		]
+	}
+}

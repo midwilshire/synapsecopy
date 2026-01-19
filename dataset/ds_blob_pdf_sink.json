@@ -1,0 +1,18 @@
+{
+	"name": "ds_blob_pdf_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_blob_archive_sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "archive"
+			}
+		}
+	},
+	"type": "Microsoft.Synapse/workspaces/datasets"
+}

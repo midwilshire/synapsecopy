@@ -1,0 +1,10 @@
+{
+	"name": "ls_blob_destination",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/6fc2a3ad-1efc-4f3c-8ca1-0a874f612ef2/resourceGroups/RG-Destination/providers/Microsoft.Storage/storageAccounts/sadest2026",
+		"groupId": "blob",
+		"fqdns": [
+			"sadest2026.blob.core.windows.net"
+		]
+	}
+}

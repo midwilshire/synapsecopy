@@ -1,0 +1,24 @@
+{
+	"name": "PDFCreated",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_move_curated_pdfs",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/curated/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/6fc2a3ad-1efc-4f3c-8ca1-0a874f612ef2/resourceGroups/RG-Source/providers/Microsoft.Storage/storageAccounts/sasource2026",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
